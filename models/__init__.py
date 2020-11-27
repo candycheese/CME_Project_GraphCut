@@ -1,0 +1,1 @@
+from .LeNet_PyTorch import LeNet5

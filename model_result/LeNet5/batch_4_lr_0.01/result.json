@@ -1,0 +1,28 @@
+{
+    "originalDir": "/disk/dataset/cme/pytorch/vgg/201101_modify/",
+    "label_info": "/disk/dataset/cme/pytorch/vgg/201101_modify_01_label.txt",
+    "saveDir": "/disk/dataset/Earlier_Project/model_result/",
+    "model_name": "LeNet5",
+    "size": 112,
+    "use_gpu": true,
+    "nThreads": 0,
+    "batch_size": 4,
+    "lr": 0.01,
+    "lr_final": 1e-05,
+    "weight_decay": 0.0001,
+    "clip": false,
+    "gradient": 5,
+    "nEpochs": 100,
+    "show": [
+        5,
+        3
+    ],
+    "test": false,
+    "testDir": "/media/disk3/zhp/dataset/cme_data/cme_matting/test/test_ori/",
+    "testresultDir": "/media/disk3/zhp/dataset/cme_data/cme_matting/result/",
+    "prefix": "LeNet5/batch_4_lr_0.01/",
+    "save_model_dir": "/disk/dataset/Earlier_Project/model_result/LeNet5/batch_4_lr_0.01/",
+    "best_model_path": "/disk/dataset/Earlier_Project/model_result/LeNet5/batch_4_lr_0.01/epoch1_1119_14_53_59.pth",
+    "best_ClassificationAccuracy": 0.5159744408945687,
+    "best_train_loss": 0.6925448502540589
+}
